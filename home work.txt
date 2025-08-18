@@ -1,0 +1,12 @@
+
+personal informaton
+name,email,contact number,date of birth,address
+
+blood details
+group,and related information
+
+friends
+print at least 5 friends name
+
+place
+print 10 tourists places in karnataka
