@@ -12,5 +12,8 @@ class kannadaMovies {
         for (String movie : movieNames) {
             System.out.println("Kannada Movie: " + movie);
         }
+		for(String n:movieNames){
+			System.out.println("The kannada Movies are:"+n);
+	    }
     }
 }
