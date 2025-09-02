@@ -13,5 +13,6 @@ class Php{
 		System.out.println("The index:"+j+"and Php:"+isAvailable[j]);
 		j++;
 	}while(j<isAvailable.length);
-	}	 
+	}
+	
 }
