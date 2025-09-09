@@ -9,4 +9,106 @@ friends
 print at least 5 friends name
 
 place
-print 10 tourists places in karnataka
+print 10 tourists places in Karnataka
+
+Lavanya  G B@LAPTOP-EE437MEE MINGW64 ~/OneDrive/Desktop/Xworkz (static-variables)
+$ git status
+On branch static-variables
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Book1.class
+        Book1.java
+        Employee1.class
+        Employee1.java
+        Laptop1.class
+        Laptop1.java
+        Lavanya~C023R0A25~04-09-2025.txt
+        Morning.class
+        Morning.java
+        Test.java
+        Tiffion1.class
+        Tiffion1.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lavanya  G B@LAPTOP-EE437MEE MINGW64 ~/OneDrive/Desktop/Xworkz (static-variables)
+$ git checkout -b exam
+Switched to a new branch 'exam'
+
+Lavanya  G B@LAPTOP-EE437MEE MINGW64 ~/OneDrive/Desktop/Xworkz (exam)
+$ git status
+On branch exam
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Book1.class
+        Book1.java
+        Employee1.class
+        Employee1.java
+        Laptop1.class
+        Laptop1.java
+        Lavanya~C023R0A25~04-09-2025.txt
+        Morning.class
+        Morning.java
+        Test.java
+        Tiffion1.class
+        Tiffion1.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lavanya  G B@LAPTOP-EE437MEE MINGW64 ~/OneDrive/Desktop/Xworkz (exam)
+$ git add .
+
+Lavanya  G B@LAPTOP-EE437MEE MINGW64 ~/OneDrive/Desktop/Xworkz (exam)
+$ git status
+On branch exam
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Book1.class
+        new file:   Book1.java
+        new file:   Employee1.class
+        new file:   Employee1.java
+        new file:   Laptop1.class
+        new file:   Laptop1.java
+        new file:   Lavanya~C023R0A25~04-09-2025.txt
+        new file:   Morning.class
+        new file:   Morning.java
+        new file:   Test.java
+        new file:   Tiffion1.class
+        new file:   Tiffion1.java
+
+
+Lavanya  G B@LAPTOP-EE437MEE MINGW64 ~/OneDrive/Desktop/Xworkz (exam)
+$ git commit -m test
+[exam 77620ba] test
+ 12 files changed, 378 insertions(+)
+ create mode 100644 Book1.class
+ create mode 100644 Book1.java
+ create mode 100644 Employee1.class
+ create mode 100644 Employee1.java
+ create mode 100644 Laptop1.class
+ create mode 100644 Laptop1.java
+ create mode 100644 Lavanya~C023R0A25~04-09-2025.txt
+ create mode 100644 Morning.class
+ create mode 100644 Morning.java
+ create mode 100644 Test.java
+ create mode 100644 Tiffion1.class
+ create mode 100644 Tiffion1.java
+
+Lavanya  G B@LAPTOP-EE437MEE MINGW64 ~/OneDrive/Desktop/Xworkz (exam)
+$ git push origin exam
+Enumerating objects: 277, done.
+Counting objects: 100% (277/277), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (266/266), done.
+Writing objects: 100% (277/277), 105.22 KiB | 2.92 MiB/s, done.
+Total 277 (delta 72), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (72/72), done.
+remote:
+remote: Create a pull request for 'exam' on GitHub by visiting:
+remote:      https://github.com/Lavanya561209/java/pull/new/exam
+remote:
+To https://github.com/Lavanya561209/java.git
+ * [new branch]      exam -> exam
+
+Lavanya  G B@LAPTOP-EE437MEE MINGW64 ~/OneDrive/Desktop/Xworkz (exam)
+$

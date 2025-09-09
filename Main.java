@@ -1,0 +1,65 @@
+public class Main{
+	public static void main(String[] args){
+		System.out.println(Program1.number());
+		System.out.println(Program1.value());
+		System.out.println(Program1.sum());
+		System.out.println(Program1.phoneNumber());
+		System.out.println(Program1.average());
+		System.out.println(Program1.pivalue());
+		System.out.println(Program1.letter());
+		System.out.println(Program1.isAvailable());
+		System.out.println(Program1.name());
+        System.out.println("========================");
+		System.out.println(Program2.digit());
+		System.out.println(Program2.value());
+		System.out.println(Program2.sub());
+		System.out.println(Program2.phoneNumber());
+		System.out.println(Program2.average());
+		System.out.println(Program2.gst());
+		System.out.println(Program2.letter());
+		System.out.println(Program2.isAvailable());
+		System.out.println(Program2.name());
+		System.out.println("=============================");
+		System.out.println(Program3.weight());
+		System.out.println(Program3.height());
+		System.out.println(Program3.age());
+		System.out.println(Program3.contactNumber());
+		System.out.println(Program3.average());
+		System.out.println(Program3.gst());
+		System.out.println(Program3.letter());
+		System.out.println(Program3.isAvailable());
+		System.out.println(Program3.name());
+		System.out.println(Program3.vowels());
+		System.out.println("=====================");
+		System.out.println(Program4.ram());
+		System.out.println(Program4.height());
+		System.out.println(Program4.price());
+		System.out.println(Program4.contactNumber());
+		System.out.println(Program4.average());
+		System.out.println(Program4.gst());
+		System.out.println(Program4.letter());
+		System.out.println(Program4.isAvailable());
+		System.out.println(Program4.name());
+		String letters[]=Program4.laptop();
+		System.out.println(letters[0]);
+		System.out.println(letters[1]);
+		System.out.println(letters[2]);
+		System.out.println(letters[3]);
+		
+		System.out.println("------------------------");
+		System.out.println(Program5.reviews());
+		System.out.println(Program5.increasedReviews());
+		System.out.println(Program5.price());
+		System.out.println(Program5.referenceNumber());
+		System.out.println(Program5.grade());
+		System.out.println(Program5.gst());
+		System.out.println(Program5.history());
+		System.out.println(Program5.isAvailable());
+		System.out.println(Program5.name());
+		String letter[]=Program5.alphabets();
+		System.out.println(letter[0]);
+		System.out.println(letter[1]);
+		System.out.println(letter[2]);
+		System.out.println(letter[3]);	
+	}
+}
