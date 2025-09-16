@@ -1,5 +1,5 @@
 1.What do you mean by java.
--Java is an object oriented programming language and it is an platform independent.
+-Java is an object oriented programming language and it is an platform independent.(High level language)
 
 2.What is bytecode
 Byte is an source code when we complie then we will get byte code in the form of special charters.
@@ -33,19 +33,20 @@ byte code+libraries=machine understandable language (0's and 1's)
 It will integrates byte code and libraries to an machie understandale language 
 
 4.What all operations does jvm do?
-Jvm mainly provides an four oprations:
-Provide  an runtime environment
-Loads the byte code-class loader
-Run the byte code
-Executes the code
+Jvm mainly provides an four operations:
+It provides run time environment=Inside the class loader
+Loads the byte code=Using byte code verifier
+Verify the byte code
+Execute the byte code = It interprets an code line by line
+
 
 5.What do mean by variables and explain its types?
-Variable:-It is an reference type it is used to store memory adress of value
+Variable:-It is an reference type it is used to store memory address of value
 There are four types:
 Local variable 
-Static variable
+Static variable(Global variable)(Class level variable)
 Parameterized variable
-Instance variable
+Instance variable(Non-static variable)
 
 
 Local variable:-It can be declared and initalized within an method 
@@ -62,21 +63,23 @@ Primitive data type                                                             
 It is an type of data  the sizes are fixed                                      It is an primitive and user defined datatype
 It has 8 types                                                                   It has string,array,custom classes
 In this data type the sizes are fixed                                             In this datatype the are not fixed
+They are built-in  classes                                                         we can use any class name
+they are predefined datatype                                                    they are both predefined and user defined datatype
 
 
-In primitive datatype there are 8 types
-byte=1 byte=8 bits
-short=2 byte=16 bits
-int=4 byte =24 bits
-long=8 byte=32 bits
-boolean=1 byte 
-char =2 byte
-float= 4 byte
-double= 8 byte
+In primitive datatype there are 8 types           Default values
+byte=1 byte=8 bits                                     0
+short=2 byte=16 bits                                   0
+int=4 byte =24 bits                                    0
+long=8 byte=32 bits                                    0
+boolean=1 byte                                      false
+char =2 byte                                        Blank space
+float= 4 byte                                          0.0
+double= 8 byte                                         0.0
 
 
-7.What is array,give an example(with program)
-Array is an the memory location are fixed
+7.What is array. Give an example(with program)
+Array is an collection of elements of same data type
 It can be enclosed with square brackets
 Ex:-
 class Tiffion1{
@@ -98,6 +101,7 @@ More code                                                           Less code
 
 
 10.What to mean by static methods,illustrate with an example.
+
 In can be used at the level of main
 ex:-
 class Morning{
@@ -126,7 +130,7 @@ class Employee1{
 }
 
 12.What do you mean by default values and who provides default values 
-   Default value means alredy defined it values
+   Default value means alredy defined it values are defined
    Jvm provides an default value at the level of class
 
 13.Write a program to illustrate local and static variables
