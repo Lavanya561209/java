@@ -1,0 +1,106 @@
+9.Program to print default values of all datatypes.
+class Loader{
+static int price;
+static byte ram;
+static short weight;
+static long phoneNumber;
+static boolean isAvailable;
+static char  letter;
+static float gst;
+static double grams;
+static String name;
+public static void main(String[] args){
+System.out.println(price);
+System.out.println(ram);
+System.out.println(weight);
+System.out.println(phoneNumber);
+System.out.println(isAvailable);
+System.out.println(letter);
+System.out.println(gst);
+System.out.println(grams);
+System.out.println(name);
+
+}
+
+}
+
+10.Explain with an example diff between static and local variable.
+//Local variable
+class Stand{
+public static void main(String[] args){
+int length=15;
+long barcode=4664573467L;
+System.out.println("The length of the stand is:"+length);
+System.out.println("The barcode of the product is:"+barcode);	
+}
+}
+
+//Static variable
+class Shetter{
+static int amount=7000;
+static boolean isAvailable=true;
+public static void main(String[] args){
+System.out.println("The price of available product is:"+amount);
+System.out.println("The available product is:"+isAvailable);
+}
+}
+
+11.What do mean by method and example for method Chaining.
+//Example for method chaining
+class Mahindra{
+public static void start(){
+System.out.println("We can start the car");
+speed();
+}
+public static void speed(){
+System.out.println("The speed of the car is");
+}
+public static void main(String[] args){
+start();
+}
+
+12.Example for method with return type.
+class Board{
+public static void higher(int class){
+   System.out.println("The different classes are");
+   return 12;
+}
+public static void lower(String name){
+  System.out.println("The lower class name is");
+  return "Sixth Standrd";
+public static void main(String[] args){
+higher();
+lower();
+}
+}
+
+13.Example for parameterized variable.
+        class SuperMarket{
+	public static void products(int price){
+		System.out.println("The product price is:"+price);
+	}
+	public static void chips(byte gram){
+		System.out.println("It contains packet chips is:"+gram);
+	}
+	public static void sodium(short contains){
+		System.out.println("It sodium contains in this product is:"+contains);
+	}
+        	public static void main(String[] args){
+		products(100);
+		chips((byte)130);
+		sodium((short)636);
+       }
+       }
+
+14.What do you mean by array and example to print array elements in reverse order.
+class DifferentProduct{
+public static void main(String[] args){
+String names={"Vangi bath powder","Puligoare powder","Gram Masala"};
+for(int i=names.length-1;i<=0;i++){
+System.out.println("The used products is:"+names[i]);
+}
+}
+}
+
+
+
