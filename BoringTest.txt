@@ -1,0 +1,92 @@
+1. What is java and why java is platform independent?
+Java is an object oriented programming language and it is an platform independent.(High level programming language).
+Because write once run anywhere from source to byte code it will create a .class file at we can run on any operating system.
+
+2.What do you mean by byte code?
+When we compile the source code then it will generate an .class file in special characters is called byte code.
+
+3.What all operation does jvm does?
+There are four operations
+1.It provides an runtime environment
+2.It loads the byte code.
+3. Verify the byte code.
+4.Execute the byte code.
+
+4.Explain the architecture of jdk?
+JDK Architecture
+Jdk is mainly divided into two components
+Jre and build tools
+In Jre again it is divided into two components 
+Jvm and set of libraries
+
+Jdk(Java Development Tool Kit)
+Jdk is used for write and execute the java program
+
+Jre(Java runtime environment)
+It can be used to make an environment to store the data
+
+Build tools
+It is already predefined in the java 
+like javadoc,javac,debugger,jars
+
+Jvm(Java virtual machine)
+Jvm starts execution from main method we use command java to compile the code
+jvm provides an runtime environment
+
+Set of libraries
+It is already present in the bin folder
+byte code
+
+byte code+libraries=machine understandable language (0's and 1's)
+It will integrates byte code and libraries to an machie understandale language 
+
+5.What do you mean by variable?
+Variable:-It is an reference type it is used to store memory address of value
+There are four types:
+Local variable 
+Static variable(Global variable)(Class level variable)
+Parameterized variable
+Instance variable(Non-static variable)
+
+6.What do you mean by datatype
+It is a type of data that variable refers too is called datatype.
+
+7.List the diference between primitive and non-primitive datatype?
+Primitive data type                                                             Non-primitive datatype
+It is an type of data  the sizes are fixed                                      It is an primitive and user defined datatype
+It has 8 types                                                                   It has string,array,custom classes
+In this data type the sizes are fixed                                             In this datatype the sizes  are not fixed
+They are built-in  classes                                                         we can use any class name
+they are predefined datatype  
+In this datatype we cant call method                                                  they are both predefined and user defined datatype
+
+8.What do you mean by default values?
+Jvm provides an default value at the runtime at the values are fixed for only static variables.
+
+10.Difference between static local variable.
+Local variable                                                      Static variables
+It can be initialize and decalred inside a method                   It can be decalred and initialzed at the level of class
+The scope lies inside an method we can't access                     We can access anywhere it lies anywhere of the class
+an outside the method 
+More code                                                           Less code
+
+11.What do you mean by method and example for method chaining?
+Method is a block of code it performs some specific task.
+
+14.What do you mean by array and example to print array elements in reverse order.
+Array is an collection of elements of same datatype.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
