@@ -14,7 +14,7 @@ class DailyRoutine1{
 	public static void evening(){
 		System.out.println("The had a cup of milk at the evening");
 		dinner();
-	}
+	}+
 	public static void dinner(){
 		System.out.println("The dinner at 8:30 at night");
 	}
