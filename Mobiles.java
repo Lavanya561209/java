@@ -1,0 +1,4 @@
+class Mobiles extends Device {
+	
+	
+}

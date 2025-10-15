@@ -1,0 +1,2 @@
+class GroceryShop extends Shops {
+}

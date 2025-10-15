@@ -1,0 +1,4 @@
+class Colleges extends Schools {
+	
+	
+}

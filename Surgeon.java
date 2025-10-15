@@ -1,0 +1,4 @@
+class Surgeon extends Doctors {
+	
+	
+}

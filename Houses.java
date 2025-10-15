@@ -1,0 +1,2 @@
+class Houses extends Buildings {
+}

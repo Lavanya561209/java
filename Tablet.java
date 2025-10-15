@@ -1,0 +1,2 @@
+class Tablet extends Computers {
+}

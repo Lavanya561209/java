@@ -1,0 +1,3 @@
+class Account extends Banks {
+	
+}

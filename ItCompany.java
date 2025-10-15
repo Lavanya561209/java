@@ -1,0 +1,2 @@
+class ItCompany extends Companies {
+}
