@@ -11,5 +11,11 @@ class Shops {
     public void displayItems() {
         System.out.println("Items displayed");
     }
+	public void price(){
+		System.out.println("Item price");
+	}
+	public void discount(){
+		System.out.println("Item dicount");
+	}
 }
 

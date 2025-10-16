@@ -11,5 +11,11 @@ class Game {
     public void pause() {
         System.out.println("Game paused");
     }
+	public void level(){
+		System.out.println("Level up");
+	}
+	public void score(){
+		System.out.println("Scored list");
+	}
 }
 

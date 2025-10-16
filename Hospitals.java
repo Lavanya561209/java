@@ -11,5 +11,11 @@ class Hospitals {
     public void dischargePatient() {
         System.out.println("Patient discharged");
     }
+	public void medicine(){
+		System.out.println("They provide medicines");
+	}
+	public void treatment(){
+		System.out.println("They will give treatment");
+	}
 }
 

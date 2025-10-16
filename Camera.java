@@ -11,4 +11,10 @@ class Camera {
     public void recordVideo() {
         System.out.println("Video recording started");
     }
+	public void adjust(){
+		System.out.println("Adjust size");
+	}
+	public void delete(){
+		System.out.println("Delete images");
+	}
 }

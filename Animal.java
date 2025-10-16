@@ -11,5 +11,11 @@ class Animal {
     public void makeSound() {
         System.out.println("Animal makes a sound");
     }
+	public void like(){
+		System.out.println("Animals like humans");
+	}
+	public void walk(){
+		System.out.println("It will easily");
+	}
 }
 

@@ -11,5 +11,11 @@ class Restaurant {
     public void serveFood() {
         System.out.println("Food served");
     }
+	public void billing(){
+		System.out.println("The total amount is");
+	}
+	public void menu(){
+		System.out.println("List of dishes is");
+	}
 }
 

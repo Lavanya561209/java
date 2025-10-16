@@ -11,4 +11,10 @@ class Student {
     public void getResult() {
         System.out.println("Student got the result");
     }
+	public void discpline(){
+		System.out.println("Student will follow discpline");
+	}
+	public void rules(){
+		System.out.println("They will rules");
+	}
 }

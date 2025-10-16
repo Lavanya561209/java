@@ -11,4 +11,10 @@ class Computers {
     public void closeApp() {
         System.out.println("Application closed");
     }
+	public void feature(){
+		System.out.println("It has less feature");
+	}
+	public void version(){
+		System.out.println("It has oldest version");
+	}
 }

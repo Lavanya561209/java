@@ -11,4 +11,10 @@ class Television {
     public void adjustVolume() {
         System.out.println("Volume adjusted");
     }
+	public void unMute(){
+		System.out.println("Channel un muted");
+	}
+	public void connection(){
+		System.out.println("The connection has been corrected");
+	}
 }

@@ -11,4 +11,10 @@ class Employees {
     public void submitReport() {
         System.out.println("Employee submitted report");
     }
+	public void salary(){
+		System.out.println("The salary has been credited into the account"); 
+	}
+	public void timings(){
+		System.out.println("Office timings is");
+	}
 }

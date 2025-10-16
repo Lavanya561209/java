@@ -11,4 +11,10 @@ class Airline {
     public void showSafetyDemo() {
         System.out.println("Safety demonstration shown");
     }
+	public void ac(){
+		System.out.println("In airline provide ac");
+	}
+	public void belt(){
+		System.out.println("The belt has been weared"); 
+	}
 }

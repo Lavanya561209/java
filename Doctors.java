@@ -11,5 +11,11 @@ class Doctors {
     public void performCheckup() {
         System.out.println("Doctor performed a checkup");
     }
+	public void injury(){
+		System.out.println("They will make treatment");
+	}
+	public void operation(){
+		System.out.println("They will take time");
+	}
 }
 

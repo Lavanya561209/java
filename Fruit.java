@@ -11,5 +11,11 @@ class Fruit {
     public void eat() {
         System.out.println("Fruit is eaten");
     }
+	public void watering(){
+		System.out.println("water content ");
+	}
+	public void taste(){
+		System.out.println("Fruit tastefull");
+	}
 }
 

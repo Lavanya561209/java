@@ -11,4 +11,10 @@ class Vehicle{
 	public void turnOnLight(){
 		System.out.println("Light has been on");
 	}
+	public void horn(){
+		System.out.println("It has been Horned");
+	}
+	public void petrol(){
+		System.out.println("The petrol has been dropped");
+	}
 }

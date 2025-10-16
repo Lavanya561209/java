@@ -11,5 +11,12 @@ class Teacher {
     public void giveExam() {
         System.out.println("Teacher gave an exam");
     }
+	public void makeSignature(){
+		System.out.println("Teacher will make correction");
+	}
+	public void notes(){
+		System.out.println("They will provide notes");
+	}
+	
 }
 

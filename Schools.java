@@ -11,5 +11,11 @@ class Schools {
     public void declareResult() {
         System.out.println("Results declared");
     }
+	public void uniform(){
+		System.out.println("Uniform regular");
+	}
+	public void shoes(){
+		System.out.println("Shoes compulsory");
+	}
 }
 

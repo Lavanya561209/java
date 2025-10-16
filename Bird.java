@@ -11,4 +11,10 @@ class Bird {
     public void sing() {
         System.out.println("Bird is singing");
     }
+	public void takeCare(){
+		System.out.println("Bird will take care of their babies");
+	}
+	public void feed(){
+		System.out.println("Bird will feed to their babies");
+	}
 }

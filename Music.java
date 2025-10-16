@@ -11,5 +11,11 @@ class Music {
     public void decreaseVolume() {
         System.out.println("Volume decreased");
     }
+	public void feel(){
+		System.out.println("We can feel");
+	}
+	public void share(){
+		System.out.println("We can share");
+	} 
 }
 

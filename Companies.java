@@ -11,4 +11,10 @@ class Companies {
     public void releaseProduct() {
         System.out.println("Product released");
     }
+	public void leave(){
+		System.out.println("They will provide govt leave");
+	}
+	public void safety(){
+		System.out.println("They safety measures it is compulsory");
+	}
 }

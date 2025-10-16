@@ -11,5 +11,11 @@ class Computer {
     public void saveFile() {
         System.out.println("File saved");
     }
+	public void document(){
+		System.out.println("The document will be stored");
+	}
+	public void microsoft(){
+		System.out.println("The microsoft store is available");
+	}
 }
 

@@ -11,4 +11,10 @@ class Device {
     public void showBattery() {
         System.out.println("Battery is 80%");
     }
+	public void screenTime(){
+		System.out.println("The device usable screen time is");
+	}
+	public void sim(){
+		System.out.println("The usable sim");
+	}
 }
