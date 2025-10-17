@@ -6,6 +6,9 @@ class Colleges extends Schools {
 	public void shoes(){
 		System.out.println("Shoes looks decent");
 	}
+	public void assignment(){
+		System.out.println("they will provide an  more assignment for college student");
+	}
 	
 	
 }

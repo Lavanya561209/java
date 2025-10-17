@@ -17,4 +17,7 @@ class Trains {
 	public void seatingArrangement(){
 		System.out.println("Seating Number");
 	}
+	public void move(){
+		System.out.println("It will move slowly");
+	}
 }

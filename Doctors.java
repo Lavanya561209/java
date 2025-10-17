@@ -17,5 +17,8 @@ class Doctors {
 	public void operation(){
 		System.out.println("They will take time");
 	}
+	public void schedule(){
+		System.out.println("They have work timings");
+	}
 }
 

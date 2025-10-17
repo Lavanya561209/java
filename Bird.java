@@ -17,4 +17,7 @@ class Bird {
 	public void feed(){
 		System.out.println("Bird will feed to their babies");
 	}
+	public void construct(){
+		System.out.println("The will make an new house");
+	}
 }

@@ -17,5 +17,8 @@ class Animal {
 	public void walk(){
 		System.out.println("It will easily");
 	}
+	public void drink(){
+		System.out.println("Animal is drinking water");
+	}
 }
 

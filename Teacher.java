@@ -17,6 +17,9 @@ class Teacher {
 	public void notes(){
 		System.out.println("They will provide notes");
 	}
+	public void punishment(){
+		System.out.println("The teacher will punish us");
+	}
 	
 }
 

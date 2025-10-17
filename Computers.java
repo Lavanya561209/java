@@ -17,4 +17,7 @@ class Computers {
 	public void version(){
 		System.out.println("It has oldest version");
 	}
+	public void screenSize(){
+		System.out.println("It has an large size");
+	}
 }

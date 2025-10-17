@@ -17,5 +17,8 @@ class Computer {
 	public void microsoft(){
 		System.out.println("The microsoft store is available");
 	}
+	public void electronicDevice(){
+		System.out.println("It is an computer");
+	}
 }
 

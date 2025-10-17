@@ -7,6 +7,10 @@ class Mobiles extends Device {
 	public void sim(){
 		System.out.println("The usable sim");
 	}
+	@Override
+	public void display(){
+		System.out.println("The display of the mobile is");
+	}
 	
 }
 

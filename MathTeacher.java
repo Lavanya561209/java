@@ -7,4 +7,8 @@ class MathTeacher extends Teacher {
 	public void notes(){
 		System.out.println("They will provide notes");
 	}
+	@Override
+	public void punishment(){
+		System.out.println("The  maths teacher will punish us");
+	}
 }

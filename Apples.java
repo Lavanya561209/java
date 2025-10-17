@@ -7,5 +7,8 @@ class Apples extends Fruit {
 	public void taste(){
 		System.out.println("Apple fruit has less taste");
 	}
-	
+	@Override
+	public void juice(){
+		System.out.println("We can make different types of juices");
+	}
 }

@@ -7,4 +7,8 @@ class Manager extends Employees {
 	public void timings(){
 		System.out.println("Office timings is differnt from employees");
 	}
+	@Override
+	public void lunchBreak(){
+		System.out.println("The manager will eat lunch at afternoon"); 
+	}
 }

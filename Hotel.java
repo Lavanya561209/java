@@ -7,4 +7,8 @@ class Hotel extends Restaurant {
 	public void menu(){
 		System.out.println("List of  variety dishes is");
 	}
+	@Override
+	public void makePayment(){
+		System.out.println("They will provide scanner for customers"); 
+	}
 }

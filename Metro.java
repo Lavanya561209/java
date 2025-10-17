@@ -7,4 +7,8 @@ class Metro extends Trains {
 	public void seatingArrangement(){
 		System.out.println("Seating are reserved");
 	}
+	@Override
+	public void move(){
+		System.out.println("It will move fastly");
+	}
 }

@@ -17,5 +17,8 @@ class Shops {
 	public void discount(){
 		System.out.println("Item dicount");
 	}
+	public void rows(){
+		System.out.println("The items has arranged in different rows");
+	}
 }
 

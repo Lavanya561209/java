@@ -17,5 +17,8 @@ class Schools {
 	public void shoes(){
 		System.out.println("Shoes compulsory");
 	}
+	public void assignment(){
+		System.out.println("they will provide an assignment");
+	}
 }
 

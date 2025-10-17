@@ -7,4 +7,8 @@ class Dslr extends Camera {
 	public void delete(){
 		System.out.println("We can delete an photo copy");
 	}
+	@Override
+	public void clarity(){
+		System.out.println("It has good clarity");
+	}
 }

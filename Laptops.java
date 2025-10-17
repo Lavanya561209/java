@@ -7,4 +7,8 @@ class Laptops extends Computer {
 	public void microsoft(){
 		System.out.println("The microsoft store is upgraded now");
 	}
+	@Override
+	public void electronicDevice(){
+		System.out.println("It is a laptop");
+	}
 }

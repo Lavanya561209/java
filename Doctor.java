@@ -7,4 +7,8 @@ class Doctor extends Hospitals {
 	public void treatment(){
 		System.out.println("Doctor will provide good treatment");
 	}
+	@Override
+		public void cleanniess(){
+		System.out.println("Doctor should be clean while making an treatment");
+	}
 }

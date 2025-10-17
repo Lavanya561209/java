@@ -7,4 +7,8 @@ class Tablet extends Computers {
 	public void version(){
 		System.out.println("It has newest version");
 	}
+	@Override
+		public void screenSize(){
+		System.out.println("It has an affordable size");
+	}
 }

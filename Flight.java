@@ -7,4 +7,8 @@ class Flight extends Airline {
 	public void belt(){
 		System.out.println("The belt has been weared all the people"); 
 	}
+	@Override
+	public void emergencyExit(){
+		System.out.println("In flight it has emergency exit window");
+	}
 }

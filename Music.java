@@ -17,5 +17,8 @@ class Music {
 	public void share(){
 		System.out.println("We can share");
 	} 
+	public void enjoy(){
+		System.out.println("We can enjoy listening music");
+	}
 }
 

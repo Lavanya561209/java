@@ -7,4 +7,8 @@ class Song extends Music {
 	public void share(){
 		System.out.println("We can download");
 	} 
+	@Override
+	public void enjoy(){
+		System.out.println("We can enjoy listening feel");
+	}
 }

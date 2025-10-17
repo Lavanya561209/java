@@ -7,6 +7,10 @@ class Surgeon extends Doctors {
 	public void operation(){
 		System.out.println("They will take time make an sevior operation");
 	}
+	@Override
+	public void schedule(){
+		System.out.println("They have an operation work in their time table");
+	}
 	
 	
 }

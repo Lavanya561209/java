@@ -17,4 +17,7 @@ class Student {
 	public void rules(){
 		System.out.println("They will rules");
 	}
+	public void homeWork(){
+		System.out.println("The student will done home work correctly");
+	}
 }

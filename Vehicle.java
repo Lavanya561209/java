@@ -17,4 +17,7 @@ class Vehicle{
 	public void petrol(){
 		System.out.println("The petrol has been dropped");
 	}
+	public void materialUsed(){
+		System.out.println("The used for screw...");
+	}
 }

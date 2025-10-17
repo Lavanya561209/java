@@ -17,4 +17,7 @@ class Companies {
 	public void safety(){
 		System.out.println("They safety measures it is compulsory");
 	}
+	public void bonous(){
+		System.out.println("They will provide bonous");
+	}
 }

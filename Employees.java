@@ -17,4 +17,7 @@ class Employees {
 	public void timings(){
 		System.out.println("Office timings is");
 	}
+	public void lunchBreak(){
+		System.out.println("The employess will eat lunch at afternoon"); 
+	}
 }

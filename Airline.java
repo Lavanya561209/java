@@ -17,4 +17,7 @@ class Airline {
 	public void belt(){
 		System.out.println("The belt has been weared"); 
 	}
+	public void emergencyExit(){
+		System.out.println("In airline it has emergency exit window");
+	}
 }

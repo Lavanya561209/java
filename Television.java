@@ -17,4 +17,7 @@ class Television {
 	public void connection(){
 		System.out.println("The connection has been corrected");
 	}
+	public void dish(){
+		System.out.println("The different channels available");
+	}
 }

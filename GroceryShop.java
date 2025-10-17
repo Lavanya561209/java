@@ -7,4 +7,8 @@ class GroceryShop extends Shops {
 	public void discount(){
 		System.out.println("Wholesale dicount price is...");
 	}
+	@Override
+	public void rows(){
+		System.out.println("The items has less rows");
+	}
 }

@@ -17,5 +17,8 @@ class Game {
 	public void score(){
 		System.out.println("Scored list");
 	}
+	public void leaderBoard(){
+		System.out.println("It will make score according to the player"); 
+	}
 }
 

@@ -7,4 +7,8 @@ class Dog extends Animal {
 	public void walk(){
 		System.out.println("It will walk quickly");
 	}
+	@Override
+	public void drink(){
+		System.out.println("Animal is drinking water");
+	}
 }

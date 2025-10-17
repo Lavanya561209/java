@@ -17,5 +17,8 @@ class Hospitals {
 	public void treatment(){
 		System.out.println("They will give treatment");
 	}
+	public void cleanniess(){
+		System.out.println("Hospital should be clean and hygein");
+	}
 }
 

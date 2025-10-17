@@ -7,4 +7,8 @@ class Account extends Banks {
 	public void documents(){
 		System.out.println("They will keep documents as confidential");
 	}
+	@Override
+	public void rules(){
+		System.out.println("Accont holders should follow some rules and regulations");
+	}
 }

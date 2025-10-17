@@ -11,6 +11,7 @@ class ExternalRunnerClass{
 	Vehicle vv=new Bike();
 	vv.horn();
 	vv.petrol();
+	vv.materialUsed();
 	System.out.println("-------------------------");
 	Bike.start();
 	Bike.applyBreak();
@@ -34,6 +35,7 @@ class ExternalRunnerClass{
 	 Animal animal=new Dog();
 	 animal.walk();
 	 animal.like();
+	 animal.drink();
 	 
 	System.out.println("-------------------------");
 	Dog.eat();
@@ -57,6 +59,7 @@ class ExternalRunnerClass{
 	 Device device=new Mobiles();
 	 device.sim();
 	 device.screenTime();
+	 device.display();
 	System.out.println("-------------------------"); 
 	 Mobiles.powerOn();
      Mobiles.powerOff();
@@ -78,6 +81,7 @@ class ExternalRunnerClass{
 	 Student student=new Graduate();
 	 student.discpline();
 	 student.rules(); 
+	 student.homeWork();
 	System.out.println("-------------------------"); 
 	Graduate.study();
      Graduate.attendClass();
@@ -99,6 +103,7 @@ class ExternalRunnerClass{
 	 Employees employee=new Manager();
 	 employee.salary();
 	 employee.timings();
+	 employee.lunchBreak();
 	 
 	System.out.println("-------------------------"); 
 	Manager.work();
@@ -121,6 +126,7 @@ class ExternalRunnerClass{
 	 Teacher teacher=new MathTeacher();
 	 teacher.makeSignature();
 	 teacher.notes();
+	 teacher.punishment();
 	 
 	System.out.println("-------------------------"); 
 	MathTeacher.teach();
@@ -142,7 +148,9 @@ class ExternalRunnerClass{
 	 ba1.documents();
 	 Banks bank=new Account();
 	 bank.gst();
-	 ba1.documents();
+	 bank.documents();
+	 bank.rules();
+	 
     System.out.println("-------------------------"); 
 	Account.openAccount();
      Account.closeAccount();
@@ -164,6 +172,7 @@ class ExternalRunnerClass{
 	 Computer computer=new Laptops();
 	 computer.document();
 	 computer.microsoft();
+	 computer.electronicDevice();
 	System.out.println("-------------------------");
     Laptops.start();
      Laptops.shutdown();
@@ -185,6 +194,7 @@ class ExternalRunnerClass{
 	 Buildings building=new Houses();
 	 building.furniture();
 	 building.electrical();
+	 building.light();
 	System.out.println("-------------------------"); 
 	Houses.construct();
      Houses.demolish();
@@ -207,6 +217,7 @@ class ExternalRunnerClass{
 	 Hospitals hospital=new Doctor();
 	 hospital.medicine();
 	 hospital.treatment();
+	 hospital.cleanniess();
 	System.out.println("-------------------------"); 
 	Doctor.open();
      Doctor.close();
@@ -228,6 +239,7 @@ class ExternalRunnerClass{
 	 Bird bird=new Parrot();
 	 bird.takeCare();
 	 bird.feed();
+	 bird.construct();
 	System.out.println("-------------------------");
      Parrot.fly();
      Parrot.rest();
@@ -246,6 +258,7 @@ class ExternalRunnerClass{
      Computers cs1 = new Computers();
      cs1.closeApp();
 	 cs1.version();
+	 cs1.screenSize();
 	 Computers computer1=new Tablet();
 	 computer1.feature();
 	 computer1.version();
@@ -270,6 +283,7 @@ class ExternalRunnerClass{
 	 Trains train=new Metro();
 	 train.ticket();
 	 train.seatingArrangement();
+	 train.move();
 	System.out.println("-------------------------"); 
 	Metro.start();
      Metro.stop();
@@ -291,6 +305,7 @@ class ExternalRunnerClass{
 	 Game game=new Cricket();
 	 game.level();
 	 game.score();
+	 game.leaderBoard();
 	System.out.println("-------------------------"); 
 	Cricket.startGame();
      Cricket.endGame();
@@ -312,6 +327,7 @@ class ExternalRunnerClass{
 	 Shops shop=new GroceryShop();
 	 shop.price();
 	 shop.discount();
+	 shop.rows();
 	System.out.println("-------------------------"); 
 	GroceryShop.openShop();
      GroceryShop.closeShop();
@@ -333,6 +349,7 @@ class ExternalRunnerClass{
 	 Camera camera=new Dslr();
 	 camera.adjust();
 	 camera.delete();
+	 camera.clarity();
 	System.out.println("-------------------------"); 
 	Dslr.powerOn();
      Dslr.powerOff();
@@ -354,6 +371,7 @@ class ExternalRunnerClass{
 	 Books book=new Novel();
 	 book.pages();
 	 book.list();
+	 book.made();
 	System.out.println("-------------------------"); 
 	Novel.open();
      Novel.close();
@@ -375,6 +393,7 @@ class ExternalRunnerClass{
 	 Television telivision=new SmartTv();
 	 telivision.unMute();
 	 telivision.connection();
+	 telivision.dish();
     System.out.println("-------------------------");
 	SmartTv.powerOn();
      SmartTv.powerOff();
@@ -396,6 +415,7 @@ class ExternalRunnerClass{
 	 Fruit fruit=new Apples();
 	 fruit.watering();
 	 fruit.taste();
+	 fruit.juice();
 	System.out.println("-------------------------");
     Apples.grow();
      Apples.harvest();
@@ -417,6 +437,7 @@ class ExternalRunnerClass{
 	 Schools school=new Colleges();
 	 school.uniform();
 	 school.shoes();
+	 school.assignment();
 	System.out.println("-------------------------"); 
 	Colleges.open();
      Colleges.close();
@@ -438,6 +459,7 @@ class ExternalRunnerClass{
 	 Music music=new Song();
 	 music.feel();
 	 music.share();
+	 music.enjoy();
 	System.out.println("-------------------------"); 
 	Song.play();
      Song.stop();
@@ -459,6 +481,7 @@ class ExternalRunnerClass{
 	 Airline airline=new Flight();
 	 airline.ac();
 	 airline.belt();
+	 airline.emergencyExit();
     System.out.println("-------------------------"); 
 	Flight.takeOff();
      Flight.land();
@@ -480,6 +503,7 @@ class ExternalRunnerClass{
 	 Companies company=new ItCompany();
 	 company.leave();
 	 company.safety();
+	 company.bonous();
 	System.out.println("-------------------------"); 
 	ItCompany.startWork();
      ItCompany.endWork();
@@ -501,6 +525,7 @@ class ExternalRunnerClass{
 	 Restaurant restaurant=new Hotel();
 	 restaurant.billing();
 	 restaurant.menu();
+	 restaurant.makePayment();
 	System.out.println("-------------------------"); 
     Hotel.open();
      Hotel.close();
@@ -522,6 +547,7 @@ class ExternalRunnerClass{
 	 Doctors doctor=new Surgeon();
 	 doctor.injury();
 	 doctor.operation();
+	 doctor.schedule();
 	System.out.println("-------------------------");
 	 Surgeon.diagnose();
      Surgeon.prescribe();

@@ -17,4 +17,7 @@ class Camera {
 	public void delete(){
 		System.out.println("Delete images");
 	}
+	public void clarity(){
+		System.out.println("It has better clarity");
+	}
 }

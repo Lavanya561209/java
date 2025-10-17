@@ -17,5 +17,8 @@ class Restaurant {
 	public void menu(){
 		System.out.println("List of dishes is");
 	}
+	public void makePayment(){
+		System.out.println("They will provide scanner"); 
+	}
 }
 

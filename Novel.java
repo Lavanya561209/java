@@ -7,4 +7,8 @@ class Novel extends Books {
 	public void list(){
 		System.out.println("Content list");
 	}
+	@Override
+	public void made(){
+		System.out.println("Novel has made in india");
+	}
 }

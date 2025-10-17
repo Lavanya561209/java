@@ -7,5 +7,9 @@ class Cricket extends Game {
 	public void score(){
 		System.out.println("The circket score board has been announced");
 	}
+	@Override
+	public void leaderBoard(){
+		System.out.println("It will make score according to the  cricket player"); 
+	}
 }
 

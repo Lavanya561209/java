@@ -17,4 +17,7 @@ class Buildings {
 	public void electrical(){
 		System.out.println("It is useful for constructions");
 	}
+	public void light(){
+		System.out.println("They will on light");
+	}
 }

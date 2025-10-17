@@ -17,5 +17,8 @@ class Books {
 	public void list(){
 		System.out.println("Blueprint of an book");
 	}
+	public void made(){
+		System.out.println("Book has made in india");
+	}
 }
 

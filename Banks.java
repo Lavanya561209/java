@@ -17,4 +17,7 @@ class Banks {
 	public void documents(){
 		System.out.println("They will keep documents as safe");
 	}
+	public void rules(){
+		System.out.println("Bank has some rules and regulations");
+	}
 }

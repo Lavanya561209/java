@@ -17,5 +17,8 @@ class Fruit {
 	public void taste(){
 		System.out.println("Fruit tastefull");
 	}
+	public void juice(){
+		System.out.println("We can make different types");
+	}
 }
 
